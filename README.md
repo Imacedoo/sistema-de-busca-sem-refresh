@@ -1,6 +1,12 @@
-# sistema-de-busca-sem-refresh
-Sistema de busca sem refresh com PHP, JS e MySql
+# Sistema de busca sem refresh
 
-Esse sistema é parte de um projeto que eu estou desenvolvendo na faculdade. Estou começando agora na programação, então é possível que algo esteja errado ou eu não tenha seguido alguma convenção ou eu poderia ter feito de um jeito melhor, etc, desde já peço perdão por isso kkkk. A lógica que eu utilizei deu certo e eu gostei do resultado, por isso decidi deixar ele aqui, espero que ajude outras pessoas e gg.
+Esse sistema é parte de um projeto que estou desenvolvendo na faculdade. É um buscador bem simples, porém útil. :)
+
+## Tecnologias utilizadas
+PHP o para backend;
+<br>
+JS para o frontend;
+<br>
+Boostrap para estilização (Um pouco);
 
 <img src="demo/sistema-de-busca-sem-refresh.gif">
