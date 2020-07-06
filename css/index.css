@@ -1,0 +1,55 @@
+body {
+    font-size: 20px;
+    background-color: #F8E79E;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    padding-top: 200px;
+}
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+}
+
+.sistema-de-busca input,
+.lista-de-resultados {
+    border: gray solid 1px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 60%;
+}
+
+.sistema-de-busca input {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.lista-de-resultados {
+    background-color: white;
+}
+
+.palavras-encontradas li {
+    color: black;
+    height: 34px;
+    margin-bottom: 3px;
+    padding: 3px 15px;
+}
+
+.palavras-encontradas li:hover {
+    background-color: #F8E79E;
+}
+
+.palavras-encontradas li a {
+    color: black;
+}
+
+.palavras-encontradas li a:hover {
+    text-decoration: none;
+}
+
+.invisivel {
+    display: none;
+}
