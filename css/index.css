@@ -31,6 +31,12 @@ body {
     background-color: white;
 }
 
+.palavras-encontradas {
+    list-style-type: none;
+    padding: 0;
+}
+
+
 .palavras-encontradas li {
     color: black;
     height: 34px;
