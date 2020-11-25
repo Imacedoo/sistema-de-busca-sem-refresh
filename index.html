@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>BuscaPalavraTermo sem refresh</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h1 class="titulo">BuscaPalavraTermo sem refresh</h1>
+
+            <div class="sistema-de-busca">
+                <input autofocus id="campo-busca" name="palavra" placeholder="O que você procura ?" type="text">
+
+                <div class="lista-de-resultados invisivel" id="lista-resultados"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/app/controllers/BuscaController.js"></script>
+
+        <script type="text/javascript" src="js/app/models/BuscaPalavraTermo.js"></script>
+
+        <script type="text/javascript" src="js/app/services/BuscaService.js"></script>
+        <script type="text/javascript" src="js/app/services/AjaxService.js"></script>
+
+        <script type="text/javascript" src="js/app/views/BuscaPalavraTermoView.js"></script>
+
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
